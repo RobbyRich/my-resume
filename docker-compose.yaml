@@ -1,0 +1,24 @@
+services:
+  gateway-svc:
+    container_name: gateway-svc
+    build: ./gateway-svc
+    restart: always
+    ports:
+      - 443:443
+      - 80:80
+  notify-svc:
+    container_name: notify-svc
+    build: ./notify-svc
+    restart: always
+  history-svc:
+    container_name: history-svc
+    build: ./history-svc
+    restart: always
+  db:
+    container_name: db
+    image: mongo:4.4
+    restart: always
+    ports:
+      - 27017:27017
+    volumes:
+      - "/opt/resume/data:/data/db"
