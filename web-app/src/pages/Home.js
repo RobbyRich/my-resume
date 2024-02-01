@@ -62,7 +62,7 @@ function Home() {
               <p class="leading-normal text-1xl mb-8">
                 The system uses ZeroMQ for high performance inter-service communication.  All data is stored in a MongoDB database and each service is hosted in Docker.
 
-                <Button url="https://github.com/RobbyRich/resume" label="Source code" />
+                <Button url="https://github.com/RobbyRich/my-resume" label="Source code" />
               </p>
             </div>
             <div>
