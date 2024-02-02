@@ -12,7 +12,7 @@ This microservice routes external requests to internal services. It acts as a fa
 
 ## history-svc
 
-This microservice communicates with a MongoDB and returns work history information to callers. The current implementation is Go.
+This microservice communicates with MongoDB and returns work history information to callers. The current implementation is Go.
 
 ## notify-svc
 
